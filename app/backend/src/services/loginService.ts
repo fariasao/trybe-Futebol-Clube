@@ -1,5 +1,5 @@
 import * as jwt from 'jsonwebtoken';
-import * as bcrypt from 'bcrypt';
+import * as bcrypt from 'bcryptjs';
 import User from '../database/models/User';
 import { readFile } from 'fs/promises';
 
