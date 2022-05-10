@@ -9,4 +9,12 @@ export default class teamService {
 
     return allTeams;
   }
+
+  public async getById(id: number) {
+    const teamId = await Teams.findByPk(id);
+
+    if (!teamId) return false;
+
+    return teamId;
+  }
 }
