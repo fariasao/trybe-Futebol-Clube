@@ -1,4 +1,5 @@
-@types/bcrypt
-@types/bcryptjs
+joi
 bcrypt
 bcryptjs
+@types/bcrypt
+@types/bcryptjs
