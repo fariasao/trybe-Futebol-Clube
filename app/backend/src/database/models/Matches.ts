@@ -5,14 +5,17 @@ import Teams from './Teams';
 class Matches extends Model {
   public id!: number;
   
-  public username!: string;
+  public homeTeam!: number;
   
-  public role!: string;
+  public homeTeamGoals!: number;
   
-  public email!: string;
+  public awayTeam!: number;
   
-  public password!: string;
+  public awayTeamGoals!: number;
+  
+  public inProgress!: boolean;
 } // no exemplo está com a ! entao copiei.
+// mudei para responder o req
 
 Matches.init({
   id: {
