@@ -16,7 +16,7 @@ Objetivos concluídos:
 ## Para executar o projeto:
 
 1. Clone o repositório
-  * `git clone https://github.com/PauloFlora/trybe-futebol-club.git`.
+  * `git clone git@github.com:fariasao/trybe-futebol-clube.git`.
   * Entre na pasta do repositório que você acabou de clonar:
     * `cd trybe-futebol-club`
 
